@@ -1,0 +1,12 @@
+.clock {
+  display: inline-block;
+}
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
