@@ -2,37 +2,58 @@
 <html>
 <head>
   <title>Flux Capacitor</title>
-  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
-  <div class='navbar'>
-    <div class='container'>
+  <div class='navbar navbar-inverse'>
+    <div class='container-fluid'>
       <div class='navbar-header'>
-        <a href="index.html" class='navbar-brand'></a>
-        <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+        <a href="index.html" class='navbar-brand'>Flux Capacitor</a>
+       <!--  <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
           <span class="sr-only">Toggle Navigation</span>
           <span class="icon-bar"></span>
           <span class='icon-bar'></span>
           <span class='icon-bar'></span>
-        </button>
-        <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
-          <li>Login</li>
-        </ul>
+        </button> -->
+        
+
       </div>
+      <ul class='nav navbar-nav'>
+        <li class='active'><a href="time-stamp-dashboard">The Flux - Flow of Time</a></li>
+        <li class='active'><a href="time-stamp-dashboard.html">The Capacitor - Temporary Storage Device for the Flow of Time</a></li>
+      </ul>
+      <ul class='nav navbar-nav navbar-right'>
+        <li>
+          <a href="sign-up.html">
+            <span class='glyphicon glyphicon-user'>Sign Up</span>
+          </a>
+        </li>
+        <li>
+          <a href="login.html"><span class='glyphicon glyphicon-log-in'>Login</span></a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class='container'>
     <div row='row'>
-      <div class='col-md-12 well'>Hello World!!!
-        <img src="images/stop-watch-classic.png">
-        
+      <div class='col-md-8 col-md-offset-2 well'>        
+        <h1>Power Into the Future</h1>
+        <div id='clock' class='clock'>
+          <div id='hour'>00</div>
+          <div id='minutes'>00</div>
+          <div id='seconds'>00</div>
+          <button type='text' class='btn btn-large btn-default'><span class='glyphicon glyphicon-flash'> Power Source</span></button>
+        </div>
+
+
       </div>
     </div>
   </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="bootstrap.js"></script>
 </body>
 </html>
