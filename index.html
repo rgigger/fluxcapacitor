@@ -20,7 +20,7 @@
         
 
       </div>
-      <ul class='nav navbar-nav'>
+      <ul class='nav navbar-nav flux-capacitor-nav' >
         <li class='active'><a href="time-stamp-dashboard">The Flux - Flow of Time</a></li>
         <li class='active'><a href="time-stamp-dashboard.html">The Capacitor - Temporary Storage Device for the Flow of Time</a></li>
       </ul>
@@ -38,13 +38,18 @@
   </div>
   <div class='container'>
     <div row='row'>
-      <div class='col-md-8 col-md-offset-2 well'>        
+      <div class='text-center col-md-8 col-md-offset-2 well '>        
         <h1>Power Into the Future</h1>
-        <div id='clock' class='clock'>
-          <div id='hour'>00</div>
-          <div id='minutes'>00</div>
-          <div id='seconds'>00</div>
-          <button type='text' class='btn btn-large btn-default'><span class='glyphicon glyphicon-flash'> Power Source</span></button>
+        <div id='clock' class='clock-wrapper well'>
+          <div class='clock well'>
+            <span id='hour'>00</span>
+            <span id='minutes'>00</span>
+            <span id='seconds'>00</span>  
+          </div>
+          <div id='start-timer'>
+            <button type='text' class='btn btn-large btn-default'><span class='glyphicon glyphicon-flash'> Power Source</span></button>
+          </div>
+          
         </div>
 
 
